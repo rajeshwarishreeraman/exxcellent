@@ -1,1 +1,42 @@
 
+= Explanation of the Solution
+
+This repository contains the solution to the programming challenge.
+
+== Implementation
+
+In order to meet the goals specified, I have defined the following interfaces and classes to
+solve the problem
+
+  * *InputReaderAPI* +
+      An interface which contains methods to read the data from the input files. This
+    interface can be implemented to read data from different sources.
+  * *InputReaderSelector* +
+      This class instantiates the implementation of the InputReaderAPI based on the type
+      of input file. 
+  * *WeatherData* and *FootballData* +
+      These classes contain the data read from the files as objects. For each new type of
+      data set, a new class can be defined to handle the data.
+  * *DataProcessor* +
+      This class contains the actual methods which perform the specified operations on the
+      data. In this case, the minimum temperature difference and the minimum difference
+      in goals.
+      
+== Summary
+ 
+  * As specified in the requirements, a Java program is written to perform appropriate
+operations on the data.
+  * The program has been verified to show that it performs the calculations correctly.
+  * The code has been written with interfaces which can be implemented to handle data
+    from different types of input files.
+  * The program also supports easy implementation of other operations as it has been
+    written with a modular approach.
+
+I enjoyed working on this interesting task. It gave me the opportunity to write a program
+which can be extended with additional features in future.
+
+
+
+
+
+
