@@ -25,7 +25,10 @@ public class AppTest {
 
     @Test
     public void runFootball() {
-        App.main("--football", "football.csv");
+        App.main( "--football","football.csv");
     }
+
+    @Test
+    public void runWeather() { App.main("--weather", "weather.csv");}
 
 }
